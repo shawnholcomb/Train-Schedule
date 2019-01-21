@@ -1,4 +1,62 @@
-.current-schedule,
-.add-train {
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: url(../images/bg.jpg) fixed ;
+}
+
+.jumbotron,
+.card-header {
+    color: #fff;
+    background: #013853;
+}
+
+.jumbotron,
+.card {
+    box-shadow: 2px 2px 9px 1px #013853;
+}
+
+.card {
     margin-bottom: 25px;
+    border-color: #013853;
+}
+
+.card-header {
+    font-size: 24px;
+}
+
+table,
+form {
+    font-size: 18px;
+}
+
+th, 
+form {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color:rgba(17,109,144,.25);
+}
+
+.train-img {
+    width: 100%;
+}
+
+.form-control {
+    background: rgba(17, 109, 144, 0.25);
+    border-radius: 25px;
+}
+    
+#submit-button {
+    background: #013853;
+    color: #fff;
+    border-color: #013853;
+    border-radius: 25px;
+    padding: 5px 20px;
+    transition: 0.3s;
+}
+
+#submit-button:hover {
+    background: #fff;
+    color: #013853;
 }
