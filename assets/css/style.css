@@ -1,7 +1,12 @@
 body {
     font-family: 'Titillium Web', sans-serif;
-    background: url(../images/bg.jpg) fixed ;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 .jumbotron,
 .card-header {
@@ -12,6 +17,15 @@ body {
 .jumbotron,
 .card {
     box-shadow: 2px 2px 9px 1px #013853;
+}
+
+.fa-train {
+    margin-right: 15px;
+}
+
+.fa-calendar-alt,
+.fa-plus-square {
+    margin-right: 8px;
 }
 
 .card {
@@ -50,10 +64,11 @@ form {
 #submit-button {
     background: #013853;
     color: #fff;
-    border-color: #013853;
+    border: 2px solid #013853;
     border-radius: 25px;
     padding: 5px 20px;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 #submit-button:hover {
